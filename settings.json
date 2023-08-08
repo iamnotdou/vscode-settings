@@ -1,0 +1,162 @@
+// Workspace Settings
+{
+  "editor.accessibilitySupport": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": " Fira Code, monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
+  "editor.guides.bracketPairs": "active",
+  "editor.hover.sticky": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+
+  // File Exclusions
+  "files.exclude": {
+    "**/.git": true,
+    "**/.github": true,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tmp": true,
+    "**/yarn.lock": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/.github": true,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tmp": true,
+    "**/yarn.lock": true
+  },
+
+  // Workbench Customizations
+  "workbench.activityBar.visible": true,
+  "workbench.fontAliasing": "antialiased",
+  "workbench.list.smoothScrolling": true,
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 10,
+  "workbench.colorTheme": "Material Theme Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+
+  // GitHub Copilot Settings
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "javascript": true
+  },
+
+  // GitLens Settings
+  "gitlens.graph.minimap.enabled": false,
+  "gitlens.graph.minimap.additionalTypes": [
+    "remoteBranches",
+    "localBranches",
+    "tags",
+    "stashes"
+  ],
+
+  // Terminal Settings
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+
+  // Extensions Settings
+  "extensions.ignoreRecommendations": true,
+
+  // [javascript] Language Specific Settings
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "javascript.updateImportsOnFileMove.enabled": "never"
+  },
+
+  // [javascriptreact] Language Specific Settings
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // [prisma] Language Specific Settings
+  "[prisma]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // [typescriptreact] Language Specific Settings
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  // TailwindCSS Experimental Settings
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+
+  // Status Bar Customizations
+  "vscord.status.image.large.debugging.text": "Debugging a {lang} file",
+  "vscord.status.image.large.editing.text": "Editing a {langw} file",
+
+  // Color Customizations
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#0a0a0a",
+    "breadcrumb.background": "#0a0a0a",
+    "editor.background": "#0a0a0a",
+    "editor.rangeHighlightBackground": "#1d1d1d",
+    "editorGroup.border": "#0a0a0a",
+    "editorGroup.dropBackground": "#262626",
+    "editorGroupHeader.tabsBackground": "#0a0a0a",
+    "editorGroupHeader.tabsBorder": "#2b2b2b",
+    "editorGutter.background": "#0a0a0a",
+    "list.activeSelectionBackground": "#0a0a0a",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.focusBackground": "#0a0a0a",
+    "list.focusForeground": "#ffffff",
+    "list.hoverForeground": "#ffffff",
+    "list.inactiveSelectionForeground": "#fff",
+    "panel.background": "#0a0a0a",
+    "quickInput.background": "#0a0a0a",
+    "quickInputList.focusBackground": "#252525",
+    "quickInputList.focusForeground": "#ffffff",
+    "quickInputTitle.background": "#0a0a0a",
+    "sideBar.background": "#0a0a0a",
+    "sideBar.border": "#0a0a0a",
+    "sideBarSectionHeader.background": "#0a0a0a",
+    "sideBarSectionHeader.foreground": "#fff",
+    "sideBarTitle.foreground": "#fff",
+    "statusBar.border": "#0a0a0a",
+    "statusBar.foreground": "#949494",
+    "tab.activeBackground": "#0a0a0a",
+    "tab.activeBorder": "#6e6e6e",
+    "tab.inactiveBackground": "#0a0a0a",
+    "terminal.background": "#0a0a0a",
+    "statusBar.background": "#0a0a0a"
+  },
+
+  // Native Tabs
+  "window.nativeTabs": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false
+}
